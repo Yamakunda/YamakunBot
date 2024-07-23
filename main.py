@@ -38,7 +38,7 @@ def handle_response(text:str) -> str:
 }
     history.append(question)
     json_payload = {
-    "model": "Yamakun",
+    "model": "llama3",
     "messages": history,
     "stream": False
 }
